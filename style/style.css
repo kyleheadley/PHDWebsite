@@ -232,12 +232,18 @@ ul#menu li a:hover
 #content ul
 { margin: 2px 0 22px 0px;}
 
-#content ul li, .sidebar ul li
+#content ul li
 { list-style-type: none;
   background: url(bullet.png) no-repeat;
   margin: 0 0 0 0; 
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
+
+.sidebar ul li
+{ list-style-type: none;
+  background: url(bullet.png) no-repeat;
+  margin: 0 0 0 0;
+  padding: 0 0 0 12px;}
 
 #footer
 { width: 100%;
