@@ -72,6 +72,9 @@
           <div class="sidebar_item">
             <!-- insert your sidebar items here -->
             <h3>Latest News</h3>
+            <h4>Talking Visualization</h4>
+            <h5>July 3, 2019</h5>
+            <p>I'll be at ICFP this summer to give a Scheme workshop talk on a <a href="https://analysisviz.gilray.net">program analysis visualizer</a> I've been working on, discussed in the <a href="2019-headley-aamviz-scheme-submit.pdf">submitted paper</a>.
             <h4>Paper accepted</h4>
             <h5>Dec 22, 2018</h5>
             <p>My single-author <a href="traitlang-IFL18-camready.pdf">paper</a> was accepted for publication at IFL'18! I expect everyone to start using Rust's type functions now!
@@ -123,7 +126,7 @@
       <div id="content">
         <!-- insert the page content here -->
         <h1>Welcome!</h1>
-        <p>I'm a student at <a href="http://cs.uab.edu">University of Alabama at Birmingham</a> working on a PHD in computer science with <a href="https://thomas.gilray.org/">Thomas Gilray</a>. We're working on tunable static analysis. Our current project is an AAM analysis visualizer.</p>
+        <p>I'm a student at <a href="http://cs.uab.edu">University of Alabama at Birmingham</a> working on a PHD in computer science with <a href="https://thomas.gilray.org/">Thomas Gilray</a>. We're working on tunable static analysis. Our current project is an <a href="https://analysisviz.gilray.net">AAM analysis visualizer</a>.</p>
         <p>As a side project I've worked with <a href="https://www.rust-lang.org/">Rust</a>'s type-level system. I've learned to do computation with traits, and to set up simple type functions and semantic rules.</p>
         <p>I received my master's degree through the <a href="http://pl.cs.colorado.edu">Programming Languages and Verification</a> group at CU Boulder, advised by <a href="http://matthewhammer.org">Matthew Hammer</a>. We worked together on incremental computation with <a href="http://adapton.org">Adapton</a> in <a href="https://www.rust-lang.org/">Rust</a>. </p>
         <p>In undergrad I worked with <a href="http://adapton.org">Adapton</a> in <a href="https://ocaml.org/">OCaml</a> at UMD's <a href="http://www.cs.umd.edu/projects/PL/">PLUM lab</a>. I also worked on a few data visualizations in javascript.
@@ -135,10 +138,7 @@
           <li>Incremental Computation with Names (Matthew A. Hammer, Joshua Dunfield, Kyle Headley, Nicholas Labich, Jeffrey S. Foster, Michael Hicks, David Van Horn)[<a href="http://dl.acm.org/citation.cfm?id=2814305">ACMDL</a>,<a href="http://arxiv.org/abs/1503.07792">Arxiv</a>,<a href="NominalAdapton.pdf">PDF</a>] <i>Published in OOPSLA'15 proceedings</i></li>
         </ul>
 
-        <h2>In Submission</h2>
-        <ul>
-          <li>Visualizing Abstract Abstract Machines (Kyle Headley, Clark Ren, Kristopher Micinski, Thomas Gilray)[<a href="2019-headley-aamviz-scheme-submit.pdf">PDF</a>] <i>Submitted to Scheme'19 workshop</i></li>
-        </ul>
+        <!-- <h2>In Submission</h2> -->
 
         <h2>Presentations</h2>
         <ul>
@@ -163,7 +163,7 @@
 
         <h2>Abstracts</h2>
         <ul>
-          <li>Extracting single-function CFGs from an AAM analysis [<a href="funccfg-icfp19src-submit.pdf">PDF</a>] <i>Submitted to ICFP'19 for the SRC</i></li>
+          <li>Extracting single-function CFGs from an AAM analysis [<a href="funccfg-icfp19src-submit.pdf">PDF</a>] <i>Submitted to ICFP'19 for the SRC (not selected to appear)</i></li>
           <li>Using Rust's metalanguage as a DSL type checker [<a href="Traitcheck-icfp18src-submit.pdf">PDF</a>] <i>Accepted at ICFP'18 for the SRC</i></li>
           <li>Simplifying incremental code with IODyn [<a href="IODyn-popl2018src-submit.pdf">PDF</a>] <i>Accepted at POPL'18 for the SRC</i></li>
           <li>Tuning Data and Control Structures for Incremental Computation [<a href="https://pldi17.sigplan.org/event/ic-2017-papers-tuning-data-and-control-structures-for-incremental-computation">IC</a>,<a href="Giraz-pldi2017src-polish.pdf">PDF</a>] <i>Accepted at IC'17 (with PLDI) for presentation (original submission [<a href="Giraz-ic2017-submit.pdf">PDF</a>])</i></li>
@@ -174,6 +174,7 @@
 
         <h2>Drafts</h2>
         <ul>
+          <li>Visualizing Abstract Abstract Machines [<a href="2019-headley-aamviz-scheme-submit.pdf">PDF</a>] <i>Accepted as a talk at Scheme'19 workshop</i></li>
           <li>A DSL embedded in Rust (Partial Paper) [<a href="traitlang-IFL18-draftsubmit.pdf">PDF</a>,<a href="http://2018.iflconference.org/">IFL Draft Proceedings</a>] <i>Accepted for presentation at IFL'18</i>, (Full Paper) [<a href="traitlang-IFL18-postsubmit.pdf">PDF</a>] <i>Later accepted for main publication</i></li>
           <li>Programming in the Rust Type System (Proposal) [<a href="rusttypetutorial-popl2018-proposal-submit.pdf">PDF</a>] <i>Prepared for POPL'18 Tutorials (not selected to give tutorial)</i></li>
           <li>IODyn: A High-level Language for Incremental Computation (Slides)[<a href="Iodyn-progress-unused-talk.pdf">PDF</a>] <i>Prepared for POPL'18 SRC (not selected to give talk)</i></li>
@@ -185,12 +186,13 @@
         <proj>AAM Visualizer</proj> - Web view of an AAM code analysis
         <ul>
           <li><a href="https://analysisviz.gilray.net/">Web App</a></li>
-          <li><a href="https://github.com/harp-lab/aam-visualizer">Code</a> - will be public soon</li>
+          <li><a href="https://github.com/harp-lab/aam-visualizer">Code</a></li>
           <li><a href="funccfg-icfp19src-submit">Abstract</a> - ICFP'19 SRC Submission</li>
           <li><a href="2019-headley-aamviz-scheme-submit">Draft</a> - Scheme'19 Submission</li>
         </ul>
         <proj>TraitLang</proj> - Constraining a type-level langauge in Rust
         <ul>
+          <li><a href="Traitlang-longtalk.pdf">Slides</a> - IFL'18 Talk
           <li><a href="traitlang-IFL18-draftsubmit.pdf">Draft</a> - IFL'18 Talk Submission</li>
           <li><a href="TraitLangPoster.pdf">Poster</a> - ICFP'18 Presentation</li>
           <li><a href="Traitcheck-icfp18src-submit.pdf">Extended Abstract</a> - ICFP'18 SRC Submission</li>
@@ -215,7 +217,6 @@
         </ul>
         <proj>Other Rust projects with types</proj>
         <ul>
-          <li><a href="https://play.rust-lang.org/?gist=a0f5ec8999cb08de3842500a9aa959a7&version=stable&mode=debug&edition=2015"> Traitlang DSL</a> - type checking (and macro parse) example
           <li><a href="https://gist.github.com/kyleheadley/6c8860d8fea67c1da2ab18abc6d556b8">Inheritance demonstration</a> - Traits augmenting value-level code
           <li><a href="https://gist.github.com/kyleheadley/3534b87be788613d7ad297451ed60420">Functor translations</a> - Implementation of OCaml manual section on functiors
           <li><a href="https://play.rust-lang.org/?version=stable&mode=debug&edition=2015&gist=82a531cb4abe03bcef1af0da296a8913">HKT example</a> - use traits as type functions
@@ -284,6 +285,7 @@
         </ul>
         <h2>Service</h2>
         <ul>
+          <li>Student Volunteer - <i>ICFP'19</i></li>
           <li>Student Volunteer - <i>ICFP'18</i></li>
           <li>Student Volunteer Co-Captain - <i>PLDI'18</i></li>
           <li>Student Volunteer - <i>POPL'18</i></li>
