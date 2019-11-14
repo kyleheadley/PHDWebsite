@@ -14,6 +14,12 @@ p
 { padding: 0 0 20px 0;
   line-height: 1.7em;}
 
+iframe
+{ border: none;
+  height: 1000px;
+  width: 100%;
+  overflow: hidden; }
+
 img
 { border: 0;}
 
