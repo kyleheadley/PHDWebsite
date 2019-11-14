@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Kyle's Page</title>
+  <meta name="description" content="Professional Website for Kyle Headley" />
+  <meta name="keywords" content="PHD student computer science incremental computation abstract program analysis" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_img">
+          <img src="Kyle1015.jpg">
+        </div>
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Kyle<span class="logo_colour">Headley</span></a></h1>
+          <h2>PhD Student at University of Alabama at Birmingham</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li class="selected"><a href="projects.html">Projects</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="misc.html">Misc</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <iframe src="sidebar.html"></iframe>
+      </div>
+      <div id="content">
+        <a name="projects"></a>
+        <h2>Projects</h2>
+        <a name="aamviz"></a>
+        <proj>AAM Visualizer</proj> - Web view of an AAM code analysis
+        <ul>
+          <li><a href="https://analysisviz.gilray.net/">Web App</a></li>
+          <li><a href="https://github.com/harp-lab/aam-visualizer">Code</a></li>
+          <li><a href="funccfg-icfp19src-submit.pdf">Abstract</a> - ICFP'19 SRC Submission</li>
+          <li><a href="2019-headley-aamviz-scheme-submit.pdf">Draft</a> - Scheme'19 Submission</li>
+        </ul>
+        <a name="traitlang"></a>
+        <proj>TraitLang</proj> - Constraining a type-level langauge in Rust
+        <ul>
+          <li><a href="Traitlang-longtalk.pdf">Slides</a> - IFL'18 Talk
+          <li><a href="traitlang-IFL18-draftsubmit.pdf">Draft</a> - IFL'18 Talk Submission</li>
+          <li><a href="TraitLangPoster.pdf">Poster</a> - ICFP'18 Presentation</li>
+          <li><a href="Traitcheck-icfp18src-submit.pdf">Extended Abstract</a> - ICFP'18 SRC Submission</li>
+          <li><a href="https://play.rust-lang.org/?gist=a0f5ec8999cb08de3842500a9aa959a7&version=stable&mode=debug&edition=2015"> TraitLang DSL</a> - early example
+        </ul>
+        <a name="fungi"></a>
+        <proj>Fungi Language</proj> - Typed language for incremental computation
+        <ul>
+          <li><a href="https://arxiv.org/abs/1808.07826">Paper</a> - Arxiv draft under development
+          <li><a href="https://github.com/Adapton/fungi-lang.rust">Rust implementation</a></li>
+        </ul>
+        <a name="iodyn"></a>
+        <proj>IODyn Language</proj> - DSL for incremental computation
+        <ul>
+          <li><a href="https://github.com/cuplv/iodyn-lang.rust">Rust project</a></li>
+          <li><a href="IodynPoster.pdf">Checkpoint Poster</a> - POPL'18 SRC Presentation</li>
+          <li><a href="IODyn-popl2018src-submit.pdf">Checkpoint Abstract</a> - POPL'18 SRC Submission</li>
+        </ul>
+        <a name="typerust"></a>
+        <proj>Type-Level Rust</proj>
+        <ul>
+          <li><a href="https://github.com/kyleheadley/type-theory-by-trait">Experimental project</a> - playing with different ideas</li>
+          <li><a href="https://gist.github.com/kyleheadley/af149f7452c8163667e2b047743a9e44">Untyped lambda calcules</a> - complex use of type functions</li>
+          <li><a href="https://gist.github.com/kyleheadley/d2ac40b0d682d7bc026f1e8f010e5937">early trials</a> - copy some demos</li>
+        </ul>
+        <a name="otherrust"></a>
+        <proj>Other Rust projects with types</proj>
+        <ul>
+          <li><a href="https://gist.github.com/kyleheadley/6c8860d8fea67c1da2ab18abc6d556b8">Inheritance demonstration</a> - Traits augmenting value-level code
+          <li><a href="https://gist.github.com/kyleheadley/3534b87be788613d7ad297451ed60420">Functor translations</a> - Implementation of OCaml manual section on functiors
+          <li><a href="https://play.rust-lang.org/?version=stable&mode=debug&edition=2015&gist=82a531cb4abe03bcef1af0da296a8913">HKT example</a> - use traits as type functions
+        </ul>
+        <a name="giraz"></a>
+        <proj>Giraz Collection</proj> - Sequence data structure using Adapton
+        <ul>
+          <li><a href="https://github.com/cuplv/iodyn.rust">Rust project</a></li>
+          <li><a href="https://crates.io/crates/iodyn">Cargo crate</a> - rust language package</li>
+          <li><a href="GirazPoster.pdf">Poster</a> - PLDI'17 SRC presentation</li>
+          <li><a href="Giraz-shorttalk.pdf">Slides</a> - PLDI'17 SRC talk (10 min)</li>
+          <li><a href="Giraz-longtalk.pdf">Slides</a> - IC'17 talk (25 min)</li>
+          <li><a href="Giraz-pldi2017src-polish.pdf">Extended Abstract</a> - PLDI'17 SRC Submission</li>
+        </ul>
+        <a name="incsort"></a>
+        <proj>Incremental Sorting</proj> - Memory-efficient incremental sort
+        <ul>
+          <li><a href="https://github.com/kyleheadley/presort">Rust project</a> - Initial progress</li>
+        </ul>
+        <a name="raz"></a>
+        <proj>RAZ</proj> - Random Access Zipper for functional sequence editing
+        <ul>
+          <li><a href="RAZsimple-tfp2016-pub.pdf">Paper</a> - TFP'16</li>
+          <li><a href="https://github.com/cuplv/raz.ocaml">Raz in OCaml</a></li>
+          <li><a href="RazPoster.pdf">Poster</a> - PLDI'16 SRC presentation</li>
+          <li><a href="Raz-shorttalk.pdf">Slides</a> - PLDI'16 SRC talk (10 min)</li>
+          <li><a href="Raz-longtalk.pdf">Slides</a> - TFP'16 talk (20 min)</li>
+          <li><a href="RAZsimple-draftsubmit.pdf">Paper Draft</a> - TFP'16 talk</li>
+          <li><a href="RAZcontribution-submit.pdf">Extended Abstract</a> - PLDI'16 SRC Submission </li>
+        </ul>
+        <a name="icedit"></a>
+        <proj>IC_Edit</proj> - Incremental text editor programmed in rust
+        <ul>
+          <li><a href="PRY-submit.pdf">PRY</a> - Unsubmitted Paper</li>
+          <li><a href="icedit-obt2016-submit.pdf">Talk Abstract</a> - OBT'16 Submission</li>
+          <li><a href="https://github.com/cuplv/IC_Edit">Rust project</a></li>
+          <li><a href="icedit-calc.pdf">Semantics</a> - early version</li>
+          <li><a href="https://github.com/cuplv/icedit-demo">Demos</a></li>
+          <li><a href="icedit_presentation.pdf">Slides</a></li>
+          <li><a href="https://github.com/plum-umd/adapton.rust">Adapton in rust</a></li>
+        </ul>
+        <a name="sparseadapton"></a>
+        <proj>Sparse Adapton</proj> - Uses fewer memo points for efficiency
+        <ul>
+          <li><a href ="SpaceandTimeOptimizationsInAdapton.pdf">SRC Abstract</a> - ICFP'15 Submission</li>
+          <li><a href="SparsePoster.pdf">Poster</a></li>
+          <li><a href="https://www.youtube.com/watch?v=fucXp9NnyYw&list=PLnqUlCo055hWNtUo1Haoq347VhCqIjs7u&index=34">Presentation</a></li>
+          <li><a href="Sparse_presentation.pdf">Slides</a></li>
+        </ul>
+        <a name="nominaladapton"></a>
+        <proj>Nominal Adapton</proj> - Exposes names for memo table rewriting
+        <ul>
+          <li><a href="NominalAdapton.pdf">Paper</a> - OOPSLA'15</li>
+          <li><a href="https://github.com/plum-umd/adapton.ocaml">Ocaml project</a></li>
+          <li><a href="https://www.cs.umd.edu/projects/PL/adapton-oopsla2015/icwn-oopsla15.ova">VM artifact</a> large file</li>
+          <li>Artifact documentation: <a href="https://github.com/plum-umd/adapton.ocaml/blob/master/docs/oopsla15_artifact_docs/ArtifactGuide.md">guide</a> and <a href="https://github.com/plum-umd/adapton.ocaml/blob/master/docs/oopsla15_artifact_docs/Supplement.md">supplement</a></li>
+        </ul>
+        <a name="graphmoview"></a>
+        <proj>Graphmovie</proj> - A viewer for dynamic graphs
+        <ul>
+          <li><a href="http://kyleheadley.github.io/graphmovie/?file=example-input/hash-balance-tree-16.gmv">On-line</a></li>
+          <li><a href="https://github.com/kyleheadley/graphmovie">JavaScript project</a> - with samples</li>
+        </ul>
+        <a name="webgl"></a>
+        <proj>WebGL</proj> - some experiments with graphics
+        <ul>
+          <li><a href="http://kyleheadley.github.io/GlobeOfLife/">Globe of Life</a> - drag and zoom</li>
+          <li><a href="http://kyleheadley.github.io/GPUSandbox/">Dynamic Color</a> - image creation</li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+<!--
+      <p><a href="index.html">Home</a> | <a href="examples.html">Examples</a> | <a href="page.html">A Page</a> | <a href="another_page.html">Another Page</a> | <a href="contact.html">Contact Us</a></p>
+-->
+      <p>Copyright &copy; Kyle Headley | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+    </div>
+  </div>
+</body>
+</html>
