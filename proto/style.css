@@ -1,0 +1,14 @@
+#main {
+  display: flex;
+}
+#resources {
+  width: 300px;
+}
+.button rect {
+  fill: lightgrey;
+  stroke: black;
+}
+.disabled rect {
+  fill: red;
+}
+

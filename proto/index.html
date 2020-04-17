@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script type="module">
+      import init, { handle_click, save_game, reset_game } from './game.js'
+      window.handle_click = handle_click
+      window.save_game = save_game
+      window.reset_game = reset_game
+      init()
+    </script>
+  </head>
+  <button onclick="reset_game()">Hard Reset</button>
+  <div id="main">
+    <div id="resources"></div>
+    <div id="buttons"></div>
+  </div>
+  </body>
+</html>
